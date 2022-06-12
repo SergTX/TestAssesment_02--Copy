@@ -1,5 +1,7 @@
 
-pytest -v -s -m 'smoke or regression' --html='..//Reports//report.html' --browser chrome
+pytest -v -s --browser chrome
+
+rem pytest -v -s -m 'smoke or regression' --html='..//Reports//report.html' --browser chrome
 
 rem pytest -v -s -m 'regression' --html='..//Reports//report.html' --browser chrome
 
